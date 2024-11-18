@@ -1,7 +1,7 @@
 # Default use the NVIDIA official image with PyTorch 2.3.0
 # https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html
 # ARG BASE_IMAGE=nvcr.io/nvidia/pytorch:24.02-py3
-FROM nvcr.io/nvidia/pytorch:24.02-py3
+FROM nvcr.io/nvidia/pytorch:24.04-py3
 
 # # Define environments
 # ENV MAX_JOBS=4
